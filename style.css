@@ -1,35 +1,131 @@
-h2 {
-  color: Yellow;
-}
-h4 {
-  color: White;
-} 
-h3{
-  color: Red;
-}
-table, th {
-  color: red;
-  border-collapse: collapse;
-  border: dashed black;
-}
-ul {
-  list-style-type: circle;
-}
-table {
-  width: 40%;
-}
-td:hover {
-  background-color: green;
+
+body {
+  margin: 40px;
+  background-color: #E2FDFF;
 }
 
 img {
-  width: 250px
+  width: 30%;
+  height 10%;
 }
-img:hover {
-  border: dotted 4px black;
-  width: 130px;     
-  border-raduis: 60%;
+
+.wrapper {
+    display: grid;
+    grid-gap: 1%;
+grid-template-columns: 27% 34% 30%;
+background-color: #E2FDFF;
+color: #E2FDFF;
 }
-body {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUBbQ9WNylfR4BkZxg0RxOFhvAO-N-uUoiGKUpRblhFnkiNJezGE1tMQ-sC243Viu3qL4:https://external-preview.redd.it/hEate4ufAsbJVU-3KF1CKCRacwAcCV7hxUMM20igwHo.jpg%3Fwidth%3D640%26crop%3Dsmart%26auto%3Dwebp%26s%3Dfea1cac01ff692bd96ec477276b00db9e94070de&usqp=CAU);
+
+
+.box {
+background-color: #181D27;
+color: #fff;
+border-radius: 5px;
+padding: 20px;
+font-size: 80%;
+
 }
+
+.a {
+grid-column:  3;
+grid-row: 3;
+}
+.b {
+grid-column: 3 ;
+grid-row: 1 / 3;
+}
+.c {
+grid-column: 1 ;
+grid-row: 2 ;
+}
+.d {
+grid-column: 2;
+grid-row: 2;
+}
+
+#ticket {
+  width: 90%;
+}
+
+.box {
+ font-family: "Lucida Console", "Courier New", monospace;
+  color: lightblue;
+}
+
+#date {
+  width: 88%
+}
+
+#merch {
+  width: 50%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+  }
+  body {
+    background-color: orange;
+    
+  }
+
+img {
+  width: 10%;
+  height: 40%;
+ 
+}
+  
+  #ticket {
+    height: 30%;
+      width: 20%;
+  }
+  
+  
+  
+  
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: row | row-reverse | column | column-reversae;
+  }
+  
+  body {
+    background-image: 
+      url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUBbQ9WNylfR4BkZxg0RxOFhvAO-N-uUoiGKUpRblhFnkiNJezGE1tMQ-sC243Viu3qL4:https://external-preview.redd.it/hEate4ufAsbJVU-3KF1CKCRacwAcCV7hxUMM20igwHo.jpg%3Fwidth%3D640%26crop%3Dsmart%26auto%3Dwebp%26s%3Dfea1cac01ff692bd96ec477276b00db9e94070de&usqp=CAU");
+  }
+  }
+ 
+
+  
+  
