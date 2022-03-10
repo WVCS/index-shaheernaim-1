@@ -16,7 +16,11 @@ grid-template-columns: 27% 34% 30%;
 background-color: #E2FDFF;
 color: #E2FDFF;
 }
-
+.nav {
+position: fixed;
+background-color: black;
+width: 100%;
+}
 
 .box {
 background-color: #181D27;
